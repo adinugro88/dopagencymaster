@@ -64,7 +64,7 @@
 <!-- Three.js Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <!-- 3D Background Script -->
-<script src="js/background-3d.js"></script>
-<script src="js/main.js"></script>
+<script src="js/background-3d.js?v=<?php echo time(); ?>"></script>
+<script src="js/main.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
