@@ -17,10 +17,23 @@
                 <li><a href="/contact" class="nav-link <?php echo ($active_page == 'contact') ? 'active' : ''; ?>"><?php echo t('nav_contact'); ?></a></li>
             </ul>
             
-            <!-- Language Switcher -->
-            <div class="language-switcher">
-                <a href="?lang=id" class="lang-btn <?php echo ($lang == 'id') ? 'active' : ''; ?>">ID</a>
-                <a href="?lang=en" class="lang-btn <?php echo ($lang == 'en') ? 'active' : ''; ?>">EN</a>
+            <!-- Language Switcher Dropdown -->
+            <div class="language-switcher-dropdown">
+                <button class="lang-dropdown-btn" id="langDropdownBtn" aria-label="Change Language">
+                    <span class="flag-icon"><?php echo ($lang == 'id') ? '🇮🇩' : '🇬🇧'; ?></span>
+                    <span class="lang-code"><?php echo strtoupper($lang); ?></span>
+                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                </button>
+                <div class="lang-dropdown-menu" id="langDropdownMenu">
+                    <a href="?lang=id" class="lang-option <?php echo ($lang == 'id') ? 'active' : ''; ?>">
+                        <span class="flag-icon">🇮🇩</span>
+                        <span class="lang-name">Bahasa Indonesia</span>
+                    </a>
+                    <a href="?lang=en" class="lang-option <?php echo ($lang == 'en') ? 'active' : ''; ?>">
+                        <span class="flag-icon">🇬🇧</span>
+                        <span class="lang-name">English</span>
+                    </a>
+                </div>
             </div>
             
             <!-- Mobile Menu Toggle -->

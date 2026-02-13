@@ -9,6 +9,36 @@ if (mobileToggle) {
     });
 }
 
+// Language Dropdown Toggle
+const langDropdownBtn = document.getElementById('langDropdownBtn');
+const langDropdownMenu = document.getElementById('langDropdownMenu');
+
+if (langDropdownBtn && langDropdownMenu) {
+    langDropdownBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        langDropdownBtn.classList.toggle('active');
+        langDropdownMenu.classList.toggle('show');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!langDropdownBtn.contains(e.target) && !langDropdownMenu.contains(e.target)) {
+            langDropdownBtn.classList.remove('active');
+            langDropdownMenu.classList.remove('show');
+        }
+    });
+
+    // Close dropdown when clicking on a language option
+    const langOptions = langDropdownMenu.querySelectorAll('.lang-option');
+    langOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            langDropdownBtn.classList.remove('active');
+            langDropdownMenu.classList.remove('show');
+        });
+    });
+}
+
+
 // Close mobile menu when clicking on a link
 const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
