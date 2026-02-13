@@ -1820,6 +1820,18 @@ section.bg-white {
     }
 
     .lang-name {
-        font-size: 13px;
+        display: none;
+        /* Hide language text on mobile */
+    }
+
+    /* Adjust dropdown width since we're only showing flags */
+    .lang-dropdown-menu {
+        min-width: 120px;
+    }
+
+    /* Center align flag icons in mobile dropdown */
+    .lang-option {
+        padding: 10px 14px;
+        justify-content: center;
     }
 }
