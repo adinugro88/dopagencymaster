@@ -1918,3 +1918,53 @@ section.bg-white {
         font-size: 25px;
     }
 }
+
+/* ========================================
+   ABOUT PAGE
+======================================== */
+.vision-mission-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* 280px allows 2 cols on tablet, 1 col on mobile */
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.vision-mission-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--primary);
+}
+
+.vision-mission-card.mission {
+    border-left-color: var(--accent);
+}
+
+.vision-mission-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.vision-mission-card.mission h3 {
+    color: var(--accent);
+}
+
+.vision-mission-card.vision h3 {
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .vision-mission-grid {
+        grid-template-columns: 1fr;
+        /* Force 1 column on smaller screens */
+        gap: 24px;
+    }
+
+    .vision-mission-card {
+        padding: 24px;
+        /* Reduce padding on mobile */
+    }
+}

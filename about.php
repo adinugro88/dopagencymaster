@@ -29,10 +29,10 @@ require_once 'includes/navbar.php';
 <!-- Vision & Mission Section -->
 <section class="vision-mission" style="background: var(--background);">
     <div class="container">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 40px; margin-bottom: 60px;">
+        <div class="vision-mission-grid">
             <!-- Vision -->
-            <div style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); border-left: 4px solid var(--primary);">
-                <h3 style="font-size: 28px; font-weight: 700; color: var(--primary); margin-bottom: 16px;">
+            <div class="vision-mission-card vision">
+                <h3>
                     <i class="fas fa-eye" style="margin-right: 12px;"></i>
                     <?php echo t('about_vision_title'); ?>
                 </h3>
@@ -42,8 +42,8 @@ require_once 'includes/navbar.php';
             </div>
             
             <!-- Mission -->
-            <div style="background: white; padding: 40px; border-radius: 16px; box-shadow: var(--shadow-md); border-left: 4px solid var(--accent);">
-                <h3 style="font-size: 28px; font-weight: 700; color: var(--accent); margin-bottom: 16px;">
+            <div class="vision-mission-card mission">
+                <h3>
                     <i class="fas fa-bullseye" style="margin-right: 12px;"></i>
                     <?php echo t('about_mission_title'); ?>
                 </h3>
