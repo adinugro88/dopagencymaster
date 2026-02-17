@@ -1816,22 +1816,66 @@ section.bg-white {
     }
 
     .lang-option {
-        padding: 10px 14px;
+        padding: 10px 12px;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    .lang-name {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    /* Hide language text on mobile - show only flags */
+    .lang-code {
+        display: none;
     }
 
     .lang-name {
         display: none;
-        /* Hide language text on mobile */
     }
 
-    /* Adjust dropdown width since we're only showing flags */
+    /* Adjust button padding when only showing flag */
+    .lang-dropdown-btn {
+        padding: 6px 10px;
+        gap: 4px;
+    }
+
+    /* Adjust dropdown arrow spacing */
+    .dropdown-arrow {
+        margin-left: 2px;
+    }
+
+    /* Compact dropdown width for flag-only display */
     .lang-dropdown-menu {
-        min-width: 120px;
+        min-width: 80px;
     }
 
-    /* Center align flag icons in mobile dropdown */
+    /* Center flag icons in dropdown options */
     .lang-option {
-        padding: 10px 14px;
         justify-content: center;
+        padding: 10px 8px;
+    }
+
+    /* Fix mobile navbar spacing - equal gaps between elements */
+    .nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .language-switcher-dropdown {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .mobile-toggle {
+        margin-left: 12px;
+        flex-shrink: 0;
     }
 }

@@ -27,11 +27,11 @@
                 <div class="lang-dropdown-menu" id="langDropdownMenu">
                     <a href="?lang=id" class="lang-option <?php echo ($lang == 'id') ? 'active' : ''; ?>">
                         <span class="flag-icon">🇮🇩</span>
-                        <span class="lang-name">Bahasa Indonesia</span>
+                        <span class="lang-name">ID</span>
                     </a>
                     <a href="?lang=en" class="lang-option <?php echo ($lang == 'en') ? 'active' : ''; ?>">
                         <span class="flag-icon">🇬🇧</span>
-                        <span class="lang-name">English</span>
+                        <span class="lang-name">EN</span>
                     </a>
                 </div>
             </div>

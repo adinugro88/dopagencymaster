@@ -215,13 +215,19 @@ $(document).ready(function () {
         autoHeight: true,
         responsive: {
             0: {
-                items: 1
+                items: 1.5,
+                nav: false,
+                dots: true
             },
             600: {
-                items: 2
+                items: 2,
+                nav: true,
+                dots: false
             },
             1000: {
-                items: 3
+                items: 3,
+                nav: true,
+                dots: false
             }
         },
         navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>']
