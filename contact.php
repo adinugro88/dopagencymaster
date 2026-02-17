@@ -21,33 +21,6 @@ require_once 'includes/navbar.php';
     <div class="container">
         <div class="contact-grid">
             <!-- Contact Form -->
-            <div class="contact-form">
-                <h3 style="font-size: 28px; font-weight: 700; margin-bottom: 24px; color: var(--dark);">
-                    <?php echo t('contact_form_title'); ?>
-                </h3>
-                <form>
-                    <div class="form-group">
-                        <label for="name"><?php echo t('contact_name'); ?></label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email"><?php echo t('contact_email'); ?></label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject"><?php echo t('contact_subject'); ?></label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message"><?php echo t('contact_message'); ?></label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-gradient" style="width: 100%;">
-                        <i class="fas fa-paper-plane"></i>
-                        <?php echo t('contact_send'); ?>
-                    </button>
-                </form>
-            </div>
             
             <!-- Contact Info -->
             <div class="contact-info">
@@ -100,10 +73,7 @@ require_once 'includes/navbar.php';
                         <?php echo t('contact_social_title'); ?>
                     </h4>
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/dopagencydigital/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
@@ -112,16 +82,6 @@ require_once 'includes/navbar.php';
     </div>
 </section>
 
-<!-- Google Maps Section (Optional) -->
-<section class="map" style="margin-top: 60px;">
-    <div class="container">
-        <div style="border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-md); height: 400px; background: var(--light-gray); display: flex; align-items: center; justify-content: center;">
-            <p style="color: var(--gray); font-size: 18px;">
-                <i class="fas fa-map-marked-alt" style="font-size: 48px; margin-bottom: 16px; display: block; color: var(--primary);"></i>
-                <?php echo $lang == 'id' ? 'Google Maps dapat ditambahkan di sini' : 'Google Maps can be added here'; ?>
-            </p>
-        </div>
-    </div>
-</section>
+
 
 <?php require_once 'includes/footer.php'; ?>

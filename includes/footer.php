@@ -9,10 +9,7 @@
                 </div>
                 <p class="footer-desc"><?php echo t('footer_about'); ?></p>
                 <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/dopagencydigital/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
@@ -44,8 +41,7 @@
             <div class="footer-col">
                 <h4><?php echo t('footer_contact_title'); ?></h4>
                 <ul class="footer-contact">
-                    <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
-                    <li><i class="fas fa-phone"></i> +62 812-3456-7890</li>
+                    <li><i class="fas fa-phone"></i> +62 82125189383</li>
                     <li><i class="fas fa-envelope"></i> info@dopagency.com</li>
                     <li><i class="fas fa-clock"></i> <?php echo t('contact_hours_detail'); ?></li>
                 </ul>
@@ -57,6 +53,11 @@
         </div>
     </div>
 </footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6282125189383" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
 
 <!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
