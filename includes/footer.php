@@ -41,7 +41,7 @@
             <div class="footer-col">
                 <h4><?php echo t('footer_contact_title'); ?></h4>
                 <ul class="footer-contact">
-                    <li><i class="fas fa-phone"></i> +62 82125189383</li>
+                    <li><i class="fas fa-phone"></i> +62 87780319183</li>
                     <li><i class="fas fa-envelope"></i> info@dopagency.com</li>
                     <li><i class="fas fa-clock"></i> <?php echo t('contact_hours_detail'); ?></li>
                 </ul>
@@ -55,7 +55,7 @@
 </footer>
 
 <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/6282125189383" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+<a href="https://wa.me/6287780319183" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
 </a>
 
