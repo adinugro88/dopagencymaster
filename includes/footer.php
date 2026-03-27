@@ -18,11 +18,12 @@
             <div class="footer-col">
                 <h4><?php echo t('footer_quick_links'); ?></h4>
                 <ul class="footer-links">
-                    <li><a href="/"><?php echo t('nav_home'); ?></a></li>
-                    <li><a href="/about"><?php echo t('nav_about'); ?></a></li>
-                    <li><a href="/service"><?php echo t('nav_services'); ?></a></li>
-                    <li><a href="/portfolio"><?php echo t('nav_portfolio'); ?></a></li>
-                    <li><a href="/contact"><?php echo t('nav_contact'); ?></a></li>
+                    <li><a href="index.php"><?php echo t('nav_home'); ?></a></li>
+                    <li><a href="about.php"><?php echo t('nav_about'); ?></a></li>
+                    <li><a href="service.php"><?php echo t('nav_services'); ?></a></li>
+                    <li><a href="portfolio.php"><?php echo t('nav_portfolio'); ?></a></li>
+                    <li><a href="produk.php"><?php echo t('nav_produk'); ?></a></li>
+                    <li><a href="contact.php"><?php echo t('nav_contact'); ?></a></li>
                 </ul>
             </div>
             
@@ -30,10 +31,10 @@
             <div class="footer-col">
                 <h4><?php echo t('footer_services_title'); ?></h4>
                 <ul class="footer-links">
-                    <li><a href="/service"><?php echo t('service_web_title'); ?></a></li>
-                    <li><a href="/service"><?php echo t('service_mobile_title'); ?></a></li>
-                    <li><a href="/service"><?php echo t('service_digital_title'); ?></a></li>
-                    <li><a href="/service"><?php echo t('service_branding_title'); ?></a></li>
+                    <li><a href="service.php"><?php echo t('service_web_title'); ?></a></li>
+                    <li><a href="service.php"><?php echo t('service_mobile_title'); ?></a></li>
+                    <li><a href="service.php"><?php echo t('service_digital_title'); ?></a></li>
+                    <li><a href="service.php"><?php echo t('service_branding_title'); ?></a></li>
                 </ul>
             </div>
             

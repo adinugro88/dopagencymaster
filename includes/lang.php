@@ -21,10 +21,77 @@ $translations = [
         'nav_about' => 'Tentang Kami',
         'nav_services' => 'Layanan',
         'nav_portfolio' => 'Portfolio',
+        'nav_produk' => 'Produk',
         'portfolio_hero_title' => 'Portfolio Kami',
         'portfolio_hero_subtitle' => 'Menampilkan karya terbaik dan inovasi digital kami.',
         'contact_wa' => 'Konsultasi via WhatsApp',
         'nav_contact' => 'Kontak',
+
+        // Produk Page
+        'produk_hero_title' => 'Solusi Digital Bisnis',
+        'produk_hero_subtitle' => 'Ubah ide menjadi platform digital yang responsif, cepat, dan fungsional.',
+
+        'produk_1_tab' => 'Website + Booking',
+        'produk_2_tab' => 'Company Profile',
+        'produk_3_tab' => 'Landing Page',
+        'produk_4_tab' => 'System Web Base',
+
+        'produk_badge_popular' => '⭐ Paling Populer',
+        'produk_badge_trust' => '🏢 Bangun Kepercayaan',
+        'produk_badge_convert' => '🎯 Konversi Tinggi',
+        'produk_badge_enterprise' => '⚙️ Enterprise',
+
+        'produk_features_label' => 'Fitur Unggulan',
+        'produk_cta_consult' => 'Konsultasi Sekarang',
+
+        // Produk 1: Website + Booking
+        'produk_1_title' => 'Website + Booking System',
+        'produk_1_sub' => 'Kelola Reservasi Otomatis, Fokus pada Pelayanan.',
+        'produk_1_desc' => 'Cocok untuk bisnis jasa seperti Self-Photo Studio, klinik, atau salon. Jangan biarkan pelanggan menunggu balasan admin. Berikan mereka kemudahan cek jadwal dan booking langsung dalam satu platform.',
+        'produk_1_feat_1_title' => 'Kalender Reservasi Real-Time',
+        'produk_1_feat_1_desc' => 'Pelanggan bisa cek ketersediaan dan booking jadwal secara langsung tanpa perlu menghubungi admin.',
+        'produk_1_feat_2_title' => 'Integrasi Pembayaran Otomatis',
+        'produk_1_feat_2_desc' => 'Konfirmasi pembayaran otomatis terintegrasi dengan payment gateway populer.',
+        'produk_1_feat_3_title' => 'Dashboard Manajemen Jadwal',
+        'produk_1_feat_3_desc' => 'Dashboard intuitif untuk memantau semua reservasi, jadwal, dan laporan bisnis.',
+        'produk_1_usecase' => 'Ideal untuk: Self-Photo Studio, Klinik, Salon, Coworking Space, Field Sports',
+
+        // Produk 2: Company Profile
+        'produk_2_title' => 'Company Profile',
+        'produk_2_sub' => 'Bangun Kepercayaan Profesional Secara Instan.',
+        'produk_2_desc' => 'Wajah digital bisnis Anda harus merepresentasikan kualitas brand Anda. Kami membangun website profil perusahaan yang elegan, SEO-friendly, dan informatif untuk menarik klien serta partner strategis.',
+        'produk_2_feat_1_title' => 'Desain Modern & Mobile Responsive',
+        'produk_2_feat_1_desc' => 'Tampilan premium yang menyesuaikan sempurna di semua perangkat, dari desktop hingga smartphone.',
+        'produk_2_feat_2_title' => 'Optimasi Kecepatan Loading',
+        'produk_2_feat_2_desc' => 'Website dioptimasi untuk loading cepat sehingga pengunjung tidak kabur sebelum melihat konten.',
+        'produk_2_feat_3_title' => 'Struktur Konten yang Kredibel',
+        'produk_2_feat_3_desc' => 'Alur konten yang disusun strategis untuk membangun kepercayaan klien dan partner bisnis.',
+        'produk_2_usecase' => 'Ideal untuk: Perusahaan Startup, UMKM, Konsultan, Law Firm, Agensi Kreatif',
+
+        // Produk 3: Landing Page
+        'produk_3_title' => 'Landing Page',
+        'produk_3_sub' => 'Satu Halaman, Fokus Konversi Maksimal.',
+        'produk_3_desc' => 'Butuh halaman khusus untuk iklan atau promo produk tertentu? Landing page kami dirancang dengan struktur copywriting persuasif untuk mengubah pengunjung menjadi pembeli (leads).',
+        'produk_3_feat_1_title' => 'Tombol CTA Strategis',
+        'produk_3_feat_1_desc' => 'Penempatan Call to Action yang diuji secara psikologis untuk mendorong konversi maksimal.',
+        'produk_3_feat_2_title' => 'Layout Minimalis Tanpa Distraksi',
+        'produk_3_feat_2_desc' => 'Desain bersih yang mengarahkan fokus pengunjung ke satu tujuan: konversi.',
+        'produk_3_feat_3_title' => 'Integrasi WhatsApp & Email Marketing',
+        'produk_3_feat_3_desc' => 'Lead langsung terhubung ke WhatsApp bisnis atau sistem email marketing Anda.',
+        'produk_3_usecase' => 'Ideal untuk: Produk Promo, Iklan Digital, Event, Webinar, Pre-Order Campaign',
+
+        // Produk 4: System Web Base
+        'produk_4_title' => 'System Web Base (Custom)',
+        'produk_4_sub' => 'Digitalisasi Operasional dengan Sistem Terintegrasi.',
+        'produk_4_desc' => 'Butuh aplikasi internal untuk manajemen stok, payroll, atau CRM? Kami membangun sistem berbasis web kustom yang dirancang khusus mengikuti alur kerja unik bisnis Anda.',
+        'produk_4_feat_1_title' => 'Arsitektur Kode Bersih & Aman',
+        'produk_4_feat_1_desc' => 'Dibangun dengan best practice development sehingga aman, mudah dimaintain, dan scalable.',
+        'produk_4_feat_2_title' => 'Skalabilitas Tinggi',
+        'produk_4_feat_2_desc' => 'Sistem dirancang untuk berkembang seiring pertumbuhan bisnis Anda tanpa perlu rebuild dari awal.',
+        'produk_4_feat_3_title' => 'Multi-User dengan Level Akses',
+        'produk_4_feat_3_desc' => 'Atur siapa yang dapat melihat dan mengelola data dengan sistem role & permission yang fleksibel.',
+        'produk_4_usecase' => 'Ideal untuk: Manajemen Stok, Payroll System, CRM, HRD System, POS Toko',
+
         
         // Home Page
         'hero_title' => 'Solusi Digital Terpercaya untuk Bisnis Anda',
@@ -227,7 +294,73 @@ $translations = [
         'nav_about' => 'About Us',
         'nav_services' => 'Services',
         'nav_portfolio' => 'Portfolio',
+        'nav_produk' => 'Products',
         'nav_contact' => 'Contact',
+
+        // Produk Page
+        'produk_hero_title' => 'Digital Solutions for Business',
+        'produk_hero_subtitle' => 'Turn ideas into a responsive, fast, and functional digital platform.',
+
+        'produk_1_tab' => 'Website + Booking',
+        'produk_2_tab' => 'Company Profile',
+        'produk_3_tab' => 'Landing Page',
+        'produk_4_tab' => 'Web Base System',
+
+        'produk_badge_popular' => '⭐ Most Popular',
+        'produk_badge_trust' => '🏢 Build Trust',
+        'produk_badge_convert' => '🎯 High Conversion',
+        'produk_badge_enterprise' => '⚙️ Enterprise',
+
+        'produk_features_label' => 'Key Features',
+        'produk_cta_consult' => 'Consult Now',
+
+        // Produk 1: Website + Booking
+        'produk_1_title' => 'Website + Booking System',
+        'produk_1_sub' => 'Automate Reservations, Focus on Service.',
+        'produk_1_desc' => 'Perfect for service businesses like Self-Photo Studios, clinics, or salons. Stop letting customers wait for admin replies. Give them the ease of checking schedules and booking directly on one platform.',
+        'produk_1_feat_1_title' => 'Real-Time Reservation Calendar',
+        'produk_1_feat_1_desc' => 'Customers can check availability and book schedules instantly without contacting an admin.',
+        'produk_1_feat_2_title' => 'Automated Payment Integration',
+        'produk_1_feat_2_desc' => 'Auto payment confirmation integrated with popular payment gateways.',
+        'produk_1_feat_3_title' => 'Schedule Management Dashboard',
+        'produk_1_feat_3_desc' => 'Intuitive dashboard to monitor all reservations, schedules, and business reports.',
+        'produk_1_usecase' => 'Ideal for: Self-Photo Studio, Clinic, Salon, Coworking Space, Field Sports',
+
+        // Produk 2: Company Profile
+        'produk_2_title' => 'Company Profile',
+        'produk_2_sub' => 'Build Professional Trust Instantly.',
+        'produk_2_desc' => 'Your digital face must represent the quality of your brand. We build elegant, SEO-friendly, and informative company profile websites to attract clients and strategic partners.',
+        'produk_2_feat_1_title' => 'Modern & Mobile Responsive Design',
+        'produk_2_feat_1_desc' => 'Premium look that adapts perfectly to all devices, from desktop to smartphone.',
+        'produk_2_feat_2_title' => 'Loading Speed Optimization',
+        'produk_2_feat_2_desc' => 'Website optimized for fast loading so visitors don\'t leave before seeing your content.',
+        'produk_2_feat_3_title' => 'Credible Content Structure',
+        'produk_2_feat_3_desc' => 'Strategically crafted content flow to build trust with clients and business partners.',
+        'produk_2_usecase' => 'Ideal for: Startups, SMEs, Consultants, Law Firms, Creative Agencies',
+
+        // Produk 3: Landing Page
+        'produk_3_title' => 'Landing Page',
+        'produk_3_sub' => 'One Page, Maximum Conversion Focus.',
+        'produk_3_desc' => 'Need a dedicated page for ads or a specific product promo? Our landing pages are designed with persuasive copywriting structure to turn visitors into buyers (leads).',
+        'produk_3_feat_1_title' => 'Strategic CTA Buttons',
+        'produk_3_feat_1_desc' => 'Psychologically tested Call to Action placements to drive maximum conversions.',
+        'produk_3_feat_2_title' => 'Minimalist Distraction-Free Layout',
+        'produk_3_feat_2_desc' => 'Clean design that directs visitor focus to one goal: conversion.',
+        'produk_3_feat_3_title' => 'WhatsApp & Email Marketing Integration',
+        'produk_3_feat_3_desc' => 'Leads connect directly to your business WhatsApp or email marketing system.',
+        'produk_3_usecase' => 'Ideal for: Promo Products, Digital Ads, Events, Webinars, Pre-Order Campaigns',
+
+        // Produk 4: System Web Base
+        'produk_4_title' => 'System Web Base (Custom)',
+        'produk_4_sub' => 'Digitize Operations with an Integrated System.',
+        'produk_4_desc' => 'Need an internal application for stock management, payroll, or CRM? We build custom web-based systems designed to follow the unique workflow of your business.',
+        'produk_4_feat_1_title' => 'Clean & Secure Code Architecture',
+        'produk_4_feat_1_desc' => 'Built with development best practices to ensure security, easy maintenance, and scalability.',
+        'produk_4_feat_2_title' => 'High Scalability',
+        'produk_4_feat_2_desc' => 'System designed to grow with your business without needing a full rebuild.',
+        'produk_4_feat_3_title' => 'Multi-User with Access Levels',
+        'produk_4_feat_3_desc' => 'Control who can view and manage data with a flexible role & permission system.',
+        'produk_4_usecase' => 'Ideal for: Stock Management, Payroll System, CRM, HRD System, Store POS',
         
         // Home Page
         'hero_title' => 'Trusted Digital Solutions for Your Business',

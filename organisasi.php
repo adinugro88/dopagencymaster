@@ -127,7 +127,7 @@ require_once 'includes/navbar.php';
     <section class="cta-section">
         <h2><?php echo t('cta_title'); ?></h2>
         <p><?php echo t('cta_subtitle'); ?></p>
-        <a href="/contact" class="btn btn-primary"><?php echo t('cta_button'); ?></a>
+        <a href="contact.php" class="btn btn-primary"><?php echo t('cta_button'); ?></a>
     </section>
 </div>
 

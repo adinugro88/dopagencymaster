@@ -183,13 +183,12 @@ section {
     transition: var(--transition);
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
+.nav-link:hover::after {
     width: 100%;
 }
 
 .nav-link.active {
-    color: var(--accent);
+    color: #f7ff00; /* Bright yellow for better visibility on hero background */
 }
 
 .navbar.scrolled .nav-link.active {

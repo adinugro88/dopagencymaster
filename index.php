@@ -14,8 +14,8 @@ require_once 'includes/navbar.php';
                 <h1><?php echo t('hero_title'); ?></h1>
                 <p><?php echo t('hero_subtitle'); ?></p>
                 <div class="hero-buttons">
-                    <a href="/contact" class="btn btn-primary"><?php echo t('hero_cta'); ?></a>
-                    <a href="/about" class="btn btn-outline"><?php echo t('hero_learn_more'); ?></a>
+                    <a href="contact.php" class="btn btn-primary"><?php echo t('hero_cta'); ?></a>
+                    <a href="about.php" class="btn btn-outline"><?php echo t('hero_learn_more'); ?></a>
                 </div>
             </div>
             <div class="hero-image">
@@ -71,7 +71,7 @@ require_once 'includes/navbar.php';
             <h2><?php echo t('tech_title'); ?></h2>
             <p><?php echo t('tech_subtitle'); ?></p>
             <div style="margin-top: 50px; animation: fadeInUp 0.8s 0.6s ease-out backwards;">
-            <a href="/portfolio" class="btn btn-primary">
+            <a href="portfolio.php" class="btn btn-primary">
                 <?php echo t('tech_cta'); ?>
             </a>
         </div>
@@ -186,7 +186,7 @@ require_once 'includes/navbar.php';
     <section class="cta-section">
         <h2><?php echo t('cta_title'); ?></h2>
         <p><?php echo t('cta_subtitle'); ?></p>
-        <a href="/contact" class="btn btn-primary"><?php echo t('cta_button'); ?></a>
+        <a href="contact.php" class="btn btn-primary"><?php echo t('cta_button'); ?></a>
     </section>
 </div>
 

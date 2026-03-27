@@ -17,8 +17,10 @@ if (php_sapi_name() == 'cli-server') {
         '/service' => 'service.php',
         '/services' => 'service.php',
         '/portfolio' => 'portfolio.php',
+        '/produk' => 'produk.php',
         '/contact' => 'contact.php',
         '/organisasi' => 'organisasi.php',
+        '/studiophoto' => 'studiophoto.php',
     ];
     
     // Remove trailing slash

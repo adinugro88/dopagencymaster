@@ -28,7 +28,7 @@ require_once 'includes/navbar.php';
                     <?php echo t('contact_info_title'); ?>
                 </h3>
                 
-                <div class="info-item">
+                <!-- <div class="info-item">
                     <div class="info-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
@@ -36,7 +36,7 @@ require_once 'includes/navbar.php';
                         <h4><?php echo t('contact_address'); ?></h4>
                         <p>Jl. Sudirman No. 123<br>Jakarta 12190, Indonesia</p>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="info-item">
                     <div class="info-icon">

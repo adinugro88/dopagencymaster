@@ -10,11 +10,12 @@
             
             <!-- Navigation Menu -->
             <ul class="nav-menu">
-                <li><a href="/" class="nav-link <?php echo ($active_page == 'home') ? 'active' : ''; ?>"><?php echo t('nav_home'); ?></a></li>
-                <li><a href="/about" class="nav-link <?php echo ($active_page == 'about') ? 'active' : ''; ?>"><?php echo t('nav_about'); ?></a></li>
-                <li><a href="/service" class="nav-link <?php echo ($active_page == 'services') ? 'active' : ''; ?>"><?php echo t('nav_services'); ?></a></li>
-                <li><a href="/portfolio" class="nav-link <?php echo ($active_page == 'portfolio') ? 'active' : ''; ?>"><?php echo t('nav_portfolio'); ?></a></li>
-                <li><a href="/contact" class="nav-link <?php echo ($active_page == 'contact') ? 'active' : ''; ?>"><?php echo t('nav_contact'); ?></a></li>
+                <li><a href="index.php" class="nav-link <?php echo ($active_page == 'home') ? 'active' : ''; ?>"><?php echo t('nav_home'); ?></a></li>
+                <li><a href="about.php" class="nav-link <?php echo ($active_page == 'about') ? 'active' : ''; ?>"><?php echo t('nav_about'); ?></a></li>
+                <li><a href="service.php" class="nav-link <?php echo ($active_page == 'services') ? 'active' : ''; ?>"><?php echo t('nav_services'); ?></a></li>
+                <li><a href="portfolio.php" class="nav-link <?php echo ($active_page == 'portfolio') ? 'active' : ''; ?>"><?php echo t('nav_portfolio'); ?></a></li>
+                <li><a href="produk.php" class="nav-link <?php echo ($active_page == 'produk') ? 'active' : ''; ?>"><?php echo t('nav_produk'); ?></a></li>
+                <li><a href="contact.php" class="nav-link <?php echo ($active_page == 'contact') ? 'active' : ''; ?>"><?php echo t('nav_contact'); ?></a></li>
             </ul>
             
             <!-- Language Switcher Dropdown -->
