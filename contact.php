@@ -165,7 +165,7 @@ document.getElementById('whatsappForm').addEventListener('submit', function(e) {
     const message = `*Informasi Kontak Baru*%0A%0A*Nama:* ${encodeURIComponent(nama)}%0A*Layanan:* ${encodeURIComponent(service)}%0A*Pertanyaan/Pesan:* ${encodeURIComponent(pertanyaan)}`;
     
     // Nomor WhatsApp (tanpa + di depan)
-    const phoneNumber = '628950459692';
+    const phoneNumber = '6289504596920';
     
     // URL WhatsApp API
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
