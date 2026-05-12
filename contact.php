@@ -161,14 +161,14 @@ document.getElementById('whatsappForm').addEventListener('submit', function(e) {
         return;
     }
     
-    // Format pesan untuk WhatsApp
-    const message = `*Informasi Kontak Baru*%0A%0A*Nama:* ${encodeURIComponent(nama)}%0A*Layanan:* ${encodeURIComponent(service)}%0A*Pertanyaan/Pesan:* ${encodeURIComponent(pertanyaan)}`;
-    
-    // Nomor WhatsApp (tanpa + di depan)
+    // Nomor WhatsApp
     const phoneNumber = '6289504596920';
     
+    // Format pesan untuk WhatsApp
+    const message = `*Informasi Kontak Baru*\n\n*Nama:* ${nama}\n*Layanan:* ${service}\n*Pertanyaan/Pesan:* ${pertanyaan}`;
+    
     // URL WhatsApp API
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     // Buka WhatsApp
     window.open(whatsappUrl, '_blank');
